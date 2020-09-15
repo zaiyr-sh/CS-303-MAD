@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:theme="@style/AppTheme"
+        tools:context=".MainActivity">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="0.2">
+
+        <Button
+            android:id="@+id/homeScore"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:backgroundTint="#FF1504"
+            android:text="0"
+            android:textColor="#FDFDFD"
+
+            android:textSize="166sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/guestScore"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="4dp"
+
+            android:layout_weight="0.5"
+            android:backgroundTint="#102FDF"
+            android:text="0"
+            android:textColor="#F0F1F6"
+
+            android:textColorHint="#7C1F1F"
+            android:textColorLink="#773838"
+            android:textSize="166sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.6" />
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="0.8">
+
+        <Button
+            android:id="@+id/homeButtonScore"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Home"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/resetScore"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Reset Score" />
+
+        <Button
+            android:id="@+id/guestButtonScore"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Guest"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</LinearLayout>
