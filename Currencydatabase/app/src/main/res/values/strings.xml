@@ -1,0 +1,16 @@
+<resources>
+
+<!--    activity main-->
+    <string name="button_currencies">See the list of currencies</string>
+    <string name="button_add">Add</string>
+    <string name="countryEditText">Country (Kyrgyz Republic)</string>
+    <string name="currencyEditText">Currency (SOM)</string>
+    <string name="courseEditText">Course (80.20)</string>
+
+<!--    activity currencies-->
+    <string name="app_name">Currency database</string>
+    <string name="country"><b>Country:</b> Kyrgyz Republic</string>
+    <string name="currency"><b>Currency:</b> SOM</string>
+    <string name="course"><b>Course to dollar:</b> 80 SOM</string>
+    <string name="button_delete">Delete</string>
+</resources>
